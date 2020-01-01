@@ -191,6 +191,7 @@ fi
 
 if [ $apaan = "B" ] || [ $apaan = "b" ]
 then
+
 echo
 echo
 echo
@@ -198,8 +199,8 @@ clear
 echo
 echo
 echo
-cd Files
-php kamu.php
+cd ko-dork
+python2 dork.py
 echo
 echo $cyan"["$yellow"B"$cyan"]"$white"back "$cyan"["$yellow"Q"$cyan"]"$white"Quit"
 read -p "[B/Q] : " back
